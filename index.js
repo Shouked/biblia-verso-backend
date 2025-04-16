@@ -21,7 +21,7 @@ app.post('/verso', async (req, res) => {
         messages: [
           {
             role: 'user',
-            content: 'Toda vez que me responder, me comprimente, me chame pelo nome que é Melissa. Me diga um versículo bíblico curto, impactante e inspirador em português, após trazer o versículo, me explique o que significa, tenho 9 anos. Faça uma pequena explicação para que eu consiga entender, só tenho 9 anos',
+            content: 'Toda vez que me responder, me chame pelo nome que é Melissa. Me diga um versículo bíblico curto, impactante e inspirador em português, após trazer o versículo, me explique o que significa de forma resumida, tenho 9 anos. Faça uma pequena explicação para que eu consiga entender, só tenho 9 anos',
           },
         ],
         temperature: 0.7,
