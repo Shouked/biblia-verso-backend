@@ -21,7 +21,7 @@ app.post('/verso', async (req, res) => {
         messages: [
           {
             role: 'user',
-            content: 'Me diga um versículo bíblico curto, impactante e inspirador em português.',
+            content: 'Me chame sempre pelo meu nome Melissa, Me diga um versículo bíblico curto, impactante e inspirador em português, após trazer o versículo, explique para uma criança de 9 anos de idade entender',
           },
         ],
         temperature: 0.7,
